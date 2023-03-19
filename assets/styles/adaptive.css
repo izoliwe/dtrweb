@@ -1,0 +1,72 @@
+@media (max-width: 960px) {
+	
+	body {
+		text-align: center;
+	}
+
+	.logo {
+		width: 160px;
+	}
+
+	nav {
+		display: none;
+	}
+
+	.menu-btn {
+		display: block;
+		width: 30px;
+		height: 30px;
+		z-index: 11;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.startpage {
+		padding-top: 100px;
+		height: 667px;
+	}
+	.startpage h1 {
+		font-size: 36px;
+		font-weight: bold;
+		padding: 0;
+		margin: 0;
+		height: 50px;
+		line-height: 100%;
+		padding-left: 10px;
+	}
+
+	.startpage h2 {
+		font-size: 72px;
+		margin: 0;
+		font-weight: 500;
+		padding: 0;
+		margin: 0;
+		line-height: 100%;
+		padding-bottom: 8px;
+	}
+
+	.startpage h3 {
+		font-weight: 400;
+		padding: 0;
+		margin: 0;
+		line-height: 40%;
+		padding-bottom: 8px;
+	}
+
+	.startpage li {
+		display: inline;
+		font-size: 18px;
+	}
+
+	.services article {
+		text-align: left;
+	}
+
+	.services article a {
+		font-size: 32px;
+	}
+
+	footer .logo {
+		width: 300px;
+	}
+}
