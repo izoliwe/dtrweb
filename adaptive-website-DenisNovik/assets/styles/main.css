@@ -1,0 +1,258 @@
+body {
+	font-family: "Gilroy", sans-serif;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color:#828282;
+	}
+
+	a:hover {
+		color: #070707;
+		transition: ease-in-out .3s;
+	}
+
+header {
+	padding: 10px;
+	font-size: 18px;
+	line-height: 22.28px;
+	border-bottom: 1px solid #828282;
+	text-align: center;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	z-index: 1;
+	background-color: rgba(255, 255, 255, .99);
+	position: fixed;
+	min-width: 70vw;
+}
+
+p {
+	padding-top: 25px;
+	font-weight: normal;
+	color: #070707;
+	font-size: 18px;
+}
+
+.homepage {
+	padding-top: 140px;
+}
+
+.hpagesmall {
+	display: none;
+}
+
+h1 {
+	color: #070707;
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.desc {
+	font-weight: 500;
+	padding-top: 60px;
+	text-align: center;
+}
+
+.lang {
+	transform: rotate(-90deg);
+	cursor: pointer;
+	width: 175px;
+	text-align: left;
+	margin-left: 97%;
+	}
+
+	.ru_lang {
+		color: #828282;
+	}
+
+	.homepage img {
+		width: 75vw;
+		margin-top: 50px;
+	}
+
+.aboutpage {
+	text-align: center;
+	padding-top: 230px;
+	}
+
+.skillspage {
+	padding-top: 200px;
+	text-align: center;
+}
+
+.skillscards {
+	margin-top: 100px;
+	text-align: center;
+	}
+
+	.skillscards p {
+		font-size: 14px;
+		font-weight: bold;
+		color: #828282;
+	}
+
+.rating img {
+	width: 26px;
+	padding: 0 3px;
+}
+
+.fi .rating {
+	padding-top: 21px;
+}
+
+.portfolio {
+	text-align: center;
+	padding-top: 230px;
+	}
+
+	.portfoliocard img {
+		margin-top: 48px;
+		width: 75vw;
+	}
+
+	.portfolio p {
+		text-decoration: underline;
+		cursor: pointer;
+	}
+
+.contacts {
+	text-align: center;
+	padding-top: 200px;
+}
+
+.contacts p {
+	margin-top: 20px;
+}
+
+.contacts button {
+	margin-top: 40px;
+	border-radius: 30px;
+	width: 180px;
+	height: 45px;
+	font-size: 18px;
+	background-color: #070707;
+	border: none;
+}
+
+.contacts button:hover {
+	background-color: #070707;
+}
+
+.contacts p {
+	font-size: 14px;
+	color: #828282;
+	margin-top: 20px;
+}
+
+.footerph {
+	margin-bottom: 125px;
+}
+
+.socialicons {
+	margin-top: 87px;
+	text-align: center;
+}
+
+img {
+	max-width: 70vw;
+}
+
+.contacts .col {
+	width: 50px;
+}
+
+.left {
+	text-align: right;
+}
+
+.right {
+	text-align: left;
+}
+
+.linkedin {
+	margin-right: 25px;
+}
+
+.dribbble {
+	margin-left: 25px;
+}
+
+.col-2 {
+	padding: 0;
+	margin: 0;
+}
+
+.row {
+	max-width: 100vw;
+}
+
+@media (max-width:960px) {
+
+	body {
+		margin-left: 10px;
+	}
+
+	header {
+		display: none;
+	}
+
+	.homepage {
+		margin-top: 65px;
+		padding: 0;
+	}
+
+	.lang {
+		display: none;
+	}
+
+	.desc {
+		font-size: 18px;
+	}
+
+	.rating img {
+		margin: 0;
+	}
+
+	.skillscards {
+		display: flex;
+		padding: 0 26px;
+	}
+
+	.ps, .ai, .ae, .fi {
+		padding-bottom: 80px;
+	}
+
+ 	.fi {
+ 		padding: 0 27px;
+ 	}
+
+ 	.fi .rating img {
+ 		margin: 0 -1px;
+ 	}
+
+	.homepage h1 {
+		padding-right: 100px;
+	}
+
+	.desc {
+		padding-top: 23px;
+		white-space: nowrap;
+		text-align: left;
+	}
+
+	.homepage .portfolio img {
+		width: 63vw;
+	}
+
+	.hpage {
+		display: none;
+	}
+
+	.hpagesmall {
+		display: block;
+	}
+}
+	
